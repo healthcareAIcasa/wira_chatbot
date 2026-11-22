@@ -1,0 +1,288 @@
+{
+ "cases": {
+  "A01": [
+   "what's this mywira thing",
+   "Explain what this research is",
+   "what is the system on the poster for",
+   "MyWIRA ni apa sebenarnya",
+   "apa projek mywira ni",
+   "terangkan sikit pasal kajian ini"
+  ],
+  "A02": [
+   "why does the hospital need this research",
+   "what is the goal of this study",
+   "is this to cut down ER waiting",
+   "kenapa hospital buat kajian ni",
+   "apa tujuan kajian ini dijalankan",
+   "ni untuk kurangkan masa menunggu ke"
+  ],
+  "A03": [
+   "who is in charge of mywira",
+   "which company is working with the hospital",
+   "who is leading this project",
+   "siapa yang jalankan kajian ni",
+   "syarikat mana terlibat dalam projek ini",
+   "siapa ketua penyelidik"
+  ],
+  "A04": [
+   "does a robot pick my bed",
+   "how is artificial intelligence being used here",
+   "what is the bed suggestion tool for",
+   "AI ni buat apa",
+   "macam mana AI pilih katil",
+   "fungsi kecerdasan buatan dalam sistem ni"
+  ],
+  "A05": [
+   "until when will this study go on",
+   "what is the study duration",
+   "when does the research finish",
+   "kajian ni sampai bila",
+   "berapa tahun projek ini",
+   "bila kajian mula dan tamat"
+  ],
+  "B01": [
+   "what data do you collect from me",
+   "which details of my visit are used",
+   "what kind of information does the study take",
+   "data apa yang diambil",
+   "maklumat apa kajian guna",
+   "apa yang dikumpul pasal lawatan saya"
+  ],
+  "B02": [
+   "will you use my IC number",
+   "can the researchers tell who I am",
+   "is my name stored in the study",
+   "nama saya ada dalam kajian ke",
+   "no kad pengenalan saya digunakan tak",
+   "penyelidik boleh kenal pasti saya ke"
+  ],
+  "B03": [
+   "will anyone read my doctor's notes",
+   "do you look at my medical file",
+   "can the study see my lab results",
+   "nota doktor saya dibaca ke",
+   "fail perubatan saya dilihat tak",
+   "keputusan ujian darah saya dilihat ke"
+  ],
+  "B04": [
+   "I was admitted in 2024, is my data inside",
+   "are past patient records used",
+   "do you use data from previous years",
+   "saya masuk wad tahun 2024, data saya termasuk ke",
+   "rekod pesakit dulu-dulu diguna ke",
+   "data lama hospital digunakan tak"
+  ],
+  "B05": [
+   "does the system know my illness",
+   "is my diagnosis part of the data",
+   "why do you need my infection status",
+   "penyakit saya diketahui sistem ke",
+   "diagnosis saya diguna tak",
+   "status jangkitan saya digunakan kenapa"
+  ],
+  "C01": [
+   "is my data protected",
+   "can hackers get my information",
+   "how secure is this system",
+   "data saya selamat tak",
+   "maklumat saya dilindungi ke",
+   "boleh kena hack tak sistem ni"
+  ],
+  "C02": [
+   "who has access to my information",
+   "can the tech company see my records",
+   "will my insurance company find out",
+   "siapa boleh akses data saya",
+   "syarikat teknologi boleh tengok maklumat saya ke",
+   "majikan saya boleh tahu tak"
+  ],
+  "C03": [
+   "is my data sent overseas",
+   "do you sell my information",
+   "is my data used to train chatgpt",
+   "data saya dihantar ke luar negara ke",
+   "maklumat saya dijual tak",
+   "data diguna untuk latih AI lain ke"
+  ],
+  "C04": [
+   "how long will you keep my data",
+   "is my data deleted after discharge",
+   "when is my information destroyed",
+   "berapa lama data disimpan",
+   "data saya dipadam bila",
+   "maklumat saya disimpan selama-lamanya ke"
+  ],
+  "C05": [
+   "is this chat recorded",
+   "do you keep what I type here",
+   "does anyone read my messages",
+   "chat ni disimpan ke",
+   "mesej saya direkod tak",
+   "apa yang saya taip disimpan ke"
+  ],
+  "D01": [
+   "will my treatment change because of this",
+   "does the AI change my medicine",
+   "will my doctor treat me differently",
+   "rawatan saya berubah ke sebab kajian ni",
+   "AI tukar ubat saya ke",
+   "penjagaan saya terjejas tak"
+  ],
+  "D02": [
+   "does the computer decide which ward I go to",
+   "who makes the final bed decision",
+   "can staff ignore the AI suggestion",
+   "komputer tentukan wad saya ke",
+   "siapa buat keputusan katil",
+   "mesin yang pilih katil saya ke"
+  ],
+  "D03": [
+   "if I opt out will I wait longer",
+   "will staff treat me badly if I refuse",
+   "is there any penalty for withdrawing",
+   "kalau saya tarik diri, rawatan saya terjejas ke",
+   "ada hukuman ke kalau tak nak sertai",
+   "saya kena tunggu lama ke kalau keluar dari kajian"
+  ],
+  "D04": [
+   "what happens if the AI makes a mistake",
+   "what if the system recommends the wrong bed",
+   "what if the computer breaks down",
+   "kalau sistem buat silap macam mana",
+   "kalau AI cadang katil salah",
+   "siapa bertanggungjawab kalau ada masalah"
+  ],
+  "E01": [
+   "why didn't anyone ask my permission",
+   "I never signed anything, why is my data used",
+   "is it legal to use my data without consent",
+   "kenapa tak minta kebenaran saya",
+   "saya tak tandatangan apa-apa pun",
+   "kenapa tiada persetujuan diminta"
+  ],
+  "E02": [
+   "who approved this research",
+   "is this study ethically approved",
+   "what is the ethics reference number",
+   "siapa luluskan kajian ini",
+   "kajian ni dah lulus etika ke",
+   "nombor rujukan etika apa"
+  ],
+  "E03": [
+   "do I have to do anything for the study",
+   "am I a research subject",
+   "will I need extra tests",
+   "saya perlu buat apa-apa ke",
+   "saya subjek kajian ke",
+   "kena buat ujian tambahan tak"
+  ],
+  "E04": [
+   "does scanning this QR mean I agree",
+   "if I say nothing does it mean yes",
+   "by reading this have I joined",
+   "imbas QR ni maksudnya saya setuju ke",
+   "kalau saya diam maksudnya setuju ke",
+   "guna chatbot ni dah kira setuju ke"
+  ],
+  "F01": [
+   "I don't want to be part of this",
+   "how can I withdraw",
+   "where do I get the opt out form",
+   "saya tak nak data saya diguna",
+   "macam mana nak tarik diri",
+   "borang keluar kajian kat mana"
+  ],
+  "F02": [
+   "what happens after I submit the opt out",
+   "how will I know my request is done",
+   "will I get a confirmation",
+   "lepas saya tarik diri apa jadi",
+   "bila saya dapat pengesahan",
+   "berapa lama proses tarik diri"
+  ],
+  "F03": [
+   "can you delete my old data",
+   "will opting out erase everything",
+   "what about data already used",
+   "boleh padam data lama saya",
+   "data yang dah diguna boleh buang ke",
+   "rekod tahun lepas boleh keluarkan tak"
+  ],
+  "F04": [
+   "what do I need to fill in the form",
+   "why do you need my IC number for the form",
+   "can I opt out anonymously",
+   "apa kena isi dalam borang",
+   "kenapa perlu nombor IC dalam borang",
+   "boleh tarik diri tanpa nama"
+  ],
+  "F05": [
+   "can I opt out for my mother",
+   "my son is warded, can I withdraw him",
+   "can my wife fill the form for me",
+   "boleh saya tarik diri bagi pihak ibu",
+   "anak saya dalam wad boleh saya isi borang untuk dia",
+   "penjaga boleh isi borang ke"
+  ],
+  "G01": [
+   "how can I contact you",
+   "I want to speak to someone",
+   "what is the research office phone number",
+   "macam mana nak hubungi",
+   "saya nak cakap dengan orang",
+   "nombor telefon pejabat penyelidikan"
+  ],
+  "G02": [
+   "I want to complain about this study",
+   "who protects my rights",
+   "is there an independent body I can contact",
+   "saya nak buat aduan",
+   "saya tak puas hati dengan kajian ni",
+   "nak mengadu kat mana"
+  ],
+  "S03": [
+   "when can I be discharged",
+   "is my blood pressure normal",
+   "why have I been waiting since morning for a bed",
+   "bila saya boleh balik",
+   "keputusan darah saya ok tak",
+   "bila saya dapat katil"
+  ],
+  "S04": [
+   "my chest hurts badly",
+   "I can't breathe properly",
+   "my mother fainted",
+   "saya sakit dada",
+   "tolong saya sesak nafas",
+   "ayah saya pengsan"
+  ],
+  "S05": [
+   "where is the cafeteria",
+   "what time is visiting hour",
+   "where can I pay my hospital bill",
+   "pukul berapa waktu melawat",
+   "kat mana nak bayar bil",
+   "farmasi kat mana"
+  ],
+  "S06": [
+   "hi",
+   "good morning",
+   "are you a bot",
+   "hai",
+   "selamat pagi",
+   "awak ni manusia ke"
+  ]
+ },
+ "offTopic": [
+  "tell me who won the football match",
+  "recommend a good restaurant",
+  "what is 2 plus 2",
+  "harga minyak hari ni berapa",
+  "siapa perdana menteri",
+  "sdkfj qwe",
+  "jom karaoke",
+  "what is the capital of France",
+  "beli tiket bas kat mana",
+  "cuaca esok macam mana"
+ ]
+}

@@ -1,0 +1,1131 @@
+{
+ "meta": {
+  "mrecRef": "2026831-17263",
+  "bankVersion": "v1.1",
+  "changedFromV10": [
+   "F01",
+   "F02",
+   "G01",
+   "G02"
+  ],
+  "note": "v1.1 = v1.0 plus edits to F01, F02, G01, G02 (email, phone, 5 working days, placeholder). Requires MREC amendment before patient use."
+ },
+ "buttons": {
+  "en": [
+   {
+    "n": 1,
+    "label": "What is MyWIRA?",
+    "aid": "A01"
+   },
+   {
+    "n": 2,
+    "label": "What information is used?",
+    "aid": "B01"
+   },
+   {
+    "n": 3,
+    "label": "Does this affect my care?",
+    "aid": "D01"
+   },
+   {
+    "n": 4,
+    "label": "Is my information safe?",
+    "aid": "C01"
+   },
+   {
+    "n": 5,
+    "label": "Why was I not asked for consent?",
+    "aid": "E01"
+   },
+   {
+    "n": 6,
+    "label": "How do I opt out?",
+    "aid": "F01"
+   },
+   {
+    "n": 7,
+    "label": "Contact us",
+    "aid": "G01"
+   }
+  ],
+  "bm": [
+   {
+    "n": 1,
+    "label": "Apakah MyWIRA?",
+    "aid": "A01"
+   },
+   {
+    "n": 2,
+    "label": "Maklumat apakah yang digunakan?",
+    "aid": "B01"
+   },
+   {
+    "n": 3,
+    "label": "Adakah rawatan saya terjejas?",
+    "aid": "D01"
+   },
+   {
+    "n": 4,
+    "label": "Adakah maklumat saya selamat?",
+    "aid": "C01"
+   },
+   {
+    "n": 5,
+    "label": "Mengapa persetujuan saya tidak diminta?",
+    "aid": "E01"
+   },
+   {
+    "n": 6,
+    "label": "Bagaimanakah saya boleh memilih untuk tidak menyertai?",
+    "aid": "F01"
+   },
+   {
+    "n": 7,
+    "label": "Hubungi kami",
+    "aid": "G01"
+   }
+  ]
+ },
+ "quick": {
+  "en": [
+   {
+    "label": "Project Intro",
+    "aid": "A01"
+   },
+   {
+    "label": "Information used",
+    "aid": "B01"
+   },
+   {
+    "label": "Opt-out",
+    "aid": "F01"
+   },
+   {
+    "label": "Contact",
+    "aid": "G01"
+   }
+  ],
+  "bm": [
+   {
+    "label": "Pengenalan Projek",
+    "aid": "A01"
+   },
+   {
+    "label": "Maklumat Digunakan",
+    "aid": "B01"
+   },
+   {
+    "label": "Pilihan Keluar",
+    "aid": "F01"
+   },
+   {
+    "label": "Hubungi kami",
+    "aid": "G01"
+   }
+  ]
+ },
+ "categories": {
+  "A": {
+   "en": "About MyWIRA",
+   "bm": "Mengenai MyWIRA"
+  },
+  "B": {
+   "en": "Information used",
+   "bm": "Maklumat yang digunakan"
+  },
+  "C": {
+   "en": "Privacy and security",
+   "bm": "Privasi dan keselamatan"
+  },
+  "D": {
+   "en": "Effect on my care",
+   "bm": "Kesan terhadap penjagaan saya"
+  },
+  "E": {
+   "en": "Consent and ethics approval",
+   "bm": "Persetujuan dan kelulusan etika"
+  },
+  "F": {
+   "en": "Opting out",
+   "bm": "Pilihan keluar daripada kajian"
+  },
+  "G": {
+   "en": "Contacts and concerns",
+   "bm": "Maklumat hubungan dan aduan"
+  }
+ },
+ "answers": {
+  "A01": {
+   "en": {
+    "title": "What is MyWIRA?",
+    "answer": "MyWIRA is a research project testing a computer system that helps hospital staff see how patients move through the hospital, such as admission, transfer and discharge. It aims to reduce waiting time for beds or treatment. It does not diagnose, treat or replace your doctors and nurses.",
+    "examples": [
+     "What is MyWIRA?",
+     "What is this project about?",
+     "What does this poster mean?",
+     "What is this hospital system for?",
+     "Can you explain this study simply?"
+    ],
+    "words": 47
+   },
+   "bm": {
+    "title": "Apakah MyWIRA?",
+    "answer": "MyWIRA ialah projek penyelidikan yang menguji sistem komputer untuk membantu kakitangan hospital memantau pergerakan pesakit, termasuk kemasukan, pemindahan dan discaj. Tujuannya mengurangkan masa menunggu katil atau rawatan. Sistem ini tidak membuat diagnosis, memberikan rawatan atau menggantikan doktor dan jururawat anda.",
+    "examples": [
+     "Apakah MyWIRA?",
+     "Apakah tujuan projek ini?",
+     "Apakah maksud poster ini?",
+     "Untuk apa sistem hospital ini?",
+     "Bolehkah anda terangkan kajian ini secara ringkas?"
+    ],
+    "words": 40
+   },
+   "version": "v1.0"
+  },
+  "A02": {
+   "en": {
+    "title": "Why is the hospital doing this?",
+    "answer": "Patients sometimes wait a long time in the Emergency Department for a ward bed. MyWIRA studies whether better real-time information can help staff find suitable beds sooner and use hospital resources more efficiently. We do not yet know if it works but that is what the study tests.",
+    "examples": [
+     "Why is the hospital doing this study?",
+     "What is the purpose of MyWIRA?",
+     "Will this make waiting time shorter?",
+     "What problem is this trying to solve?",
+     "Why do you need this system?"
+    ],
+    "words": 48
+   },
+   "bm": {
+    "title": "Mengapa hospital menjalankan kajian ini?",
+    "answer": "Pesakit kadangkala menunggu lama di Jabatan Kecemasan untuk mendapatkan katil wad. MyWIRA mengkaji sama ada maklumat masa nyata yang lebih baik dapat membantu kakitangan mencari katil sesuai dengan lebih cepat dan menggunakan sumber hospital dengan lebih cekap. Keberkesanannya belum diketahui dan itulah yang ingin diuji.",
+    "examples": [
+     "Mengapa hospital menjalankan kajian ini?",
+     "Apakah tujuan MyWIRA?",
+     "Adakah masa menunggu akan menjadi lebih pendek?",
+     "Apakah masalah yang ingin diselesaikan?",
+     "Mengapa sistem ini diperlukan?"
+    ],
+    "words": 45
+   },
+   "version": "v1.0"
+  },
+  "A03": {
+   "en": {
+    "title": "Who runs the study?",
+    "answer": "The study is led by researchers at Universiti Malaya Medical Centre (UMMC), with Hospital Raja Perempuan Zainab II (HRPZ II), Universiti Malaya and a technology partner, Metrobinaya Sdn Bhd. It is reviewed by the Medical Research and Ethics Committee (MREC).",
+    "examples": [
+     "Who is running this research?",
+     "Which hospitals are involved?",
+     "Is a private company involved?",
+     "Who is responsible for this study?",
+     "Who are the researchers?"
+    ],
+    "words": 40
+   },
+   "bm": {
+    "title": "Siapakah yang mengendalikan kajian ini?",
+    "answer": "Kajian ini diterajui oleh penyelidik di Pusat Perubatan Universiti Malaya (PPUM), bersama Hospital Raja Perempuan Zainab II (HRPZ II), Universiti Malaya dan rakan teknologi Metrobinaya Sdn Bhd. Kajian ini disemak oleh Jawatankuasa Etika Penyelidikan Perubatan (MREC).",
+    "examples": [
+     "Siapakah yang menjalankan penyelidikan ini?",
+     "Hospital manakah yang terlibat?",
+     "Adakah syarikat swasta terlibat?",
+     "Siapakah yang bertanggungjawab?",
+     "Siapakah penyelidiknya?"
+    ],
+    "words": 36
+   },
+   "version": "v1.0"
+  },
+  "A04": {
+   "en": {
+    "title": "What does the AI do?",
+    "answer": "The system includes a tool that may suggest a suitable bed, based on bed availability, ward specialty and infection-control needs set by your care team. An authorized bed manager makes every decision and can accept or reject any suggestion given by AI.",
+    "examples": [
+     "What does the AI do?",
+     "Is artificial intelligence used on me?",
+     "How does the computer choose a bed?",
+     "What is the bed recommendation tool?",
+     "Is AI making decisions in this hospital?"
+    ],
+    "words": 42
+   },
+   "bm": {
+    "title": "Apakah yang dilakukan oleh AI?",
+    "answer": "Sistem ini mempunyai alat yang boleh mencadangkan katil sesuai berdasarkan kekosongan katil, kepakaran wad dan keperluan kawalan jangkitan yang ditetapkan oleh pasukan rawatan anda. Pengurus katil yang diberi kuasa membuat semua keputusan akhir dan boleh menerima atau menolak sebarang cadangan AI.",
+    "examples": [
+     "Apakah fungsi AI?",
+     "Adakah AI digunakan terhadap saya?",
+     "Bagaimanakah komputer memilih katil?",
+     "Apakah alat cadangan katil?",
+     "Adakah AI membuat keputusan di hospital?"
+    ],
+    "words": 41
+   },
+   "version": "v1.0"
+  },
+  "A05": {
+   "en": {
+    "title": "How long does the study run?",
+    "answer": "The study is planned from 01 December 2026 to 30 November 2029. It uses past hospital event records from 2023 to 2025 to train the system. The project is developed in many stages from safety foundation, development, and eventually clinical testing. In every stage, staff can see suggestions but always decide.",
+    "examples": [
+     "How long is this study?",
+     "When will the study end?",
+     "When did this start?",
+     "What are the stages of the study?",
+     "Is this permanent?"
+    ],
+    "words": 51
+   },
+   "bm": {
+    "title": "Berapa lamakah kajian berlangsung?",
+    "answer": "Kajian dirancang dari 1 Disember 2026 hingga 30 November 2029. Rekod peristiwa hospital bagi tahun 2023 hingga 2025 digunakan untuk melatih sistem. Projek dibangunkan secara berperingkat, bermula dengan asas keselamatan, pembangunan dan akhirnya ujian klinikal. Pada setiap peringkat, kakitangan boleh melihat cadangan tetapi keputusan tetap dibuat oleh mereka.",
+    "examples": [
+     "Berapa lama kajian ini?",
+     "Bilakah kajian berakhir?",
+     "Bilakah kajian bermula?",
+     "Apakah peringkat kajian?",
+     "Adakah sistem ini kekal?"
+    ],
+    "words": 48
+   },
+   "version": "v1.0"
+  },
+  "B01": {
+   "en": {
+    "title": "What information is used?",
+    "answer": "Mainly the times and places of a patient treatment journey in this hospital, such as registration, admission, bed request, treatment, transfer and discharge. Some limited details may be used where needed for bed matching, such as age group, gender, treating specialty and infection-control status.",
+    "examples": [
+     "What information do you use?",
+     "What data is collected about me?",
+     "What kind of records are used?",
+     "Which details from my visit are taken?",
+     "What does the system know about me?"
+    ],
+    "words": 44
+   },
+   "bm": {
+    "title": "Maklumat apakah yang digunakan?",
+    "answer": "Terutamanya masa dan lokasi sepanjang perjalanan rawatan pesakit di hospital, seperti pendaftaran, kemasukan, permohonan katil, rawatan, pemindahan dan discaj. Maklumat terhad seperti kumpulan umur, jantina, kepakaran rawatan dan status kawalan jangkitan boleh digunakan apabila diperlukan untuk memadankan katil.",
+    "examples": [
+     "Maklumat apakah yang digunakan?",
+     "Data apa yang dikumpulkan tentang saya?",
+     "Rekod jenis apa digunakan?",
+     "Butiran apa yang diambil daripada lawatan saya?",
+     "Apa yang sistem tahu tentang saya?"
+    ],
+    "words": 38
+   },
+   "version": "v1.0"
+  },
+  "B02": {
+   "en": {
+    "title": "Are my name and IC used?",
+    "answer": "No. Your personal details, including your name, identity card number, address, phone number and medical record number, are excluded. The research does not access your medical records. It uses only a unique encounter ID generated for each hospital visit. Only authorized hospital staff can link this ID to your identity.",
+    "examples": [
+     "Is my name used?",
+     "Do you use my IC number?",
+     "Can the researchers identify me?",
+     "Will my personal details be shared?",
+     "Is my phone number or address used?"
+    ],
+    "words": 50
+   },
+   "bm": {
+    "title": "Adakah nama dan nombor kad pengenalan saya digunakan?",
+    "answer": "Tidak. Butiran peribadi termasuk nama, nombor kad pengenalan, alamat, nombor telefon dan nombor rekod perubatan tidak disertakan. Penyelidikan ini tidak mengakses rekod perubatan anda. Ia hanya menggunakan ID pertemuan unik yang dijana bagi setiap lawatan hospital. Hanya kakitangan hospital yang diberi kuasa boleh memadankan ID tersebut dengan identiti anda.",
+    "examples": [
+     "Adakah nama saya digunakan?",
+     "Adakah nombor kad pengenalan digunakan?",
+     "Bolehkah penyelidik mengenal pasti saya?",
+     "Adakah maklumat peribadi saya dikongsi?",
+     "Adakah telefon atau alamat digunakan?"
+    ],
+    "words": 49
+   },
+   "version": "v1.0"
+  },
+  "B03": {
+   "en": {
+    "title": "Are my medical notes read?",
+    "answer": "No. The study does not read your doctors' or nurses' notes. It uses selected event times and a small number of coded details approved by the ethics committee. Information that is not approved is not collected.",
+    "examples": [
+     "Do you read my medical notes?",
+     "Can the system see my medical records?",
+     "Will the researchers see what the doctor wrote?",
+     "Is my whole file used?",
+     "Do you look at my test results?"
+    ],
+    "words": 36
+   },
+   "bm": {
+    "title": "Adakah nota perubatan saya dibaca?",
+    "answer": "Tidak. Kajian ini tidak membaca nota doktor atau jururawat anda. Ia hanya menggunakan masa peristiwa tertentu dan sebilangan kecil butiran berkod yang diluluskan oleh jawatankuasa etika. Maklumat yang tidak diluluskan tidak dikumpulkan.",
+    "examples": [
+     "Adakah nota perubatan saya dibaca?",
+     "Bolehkah sistem melihat rekod perubatan saya?",
+     "Adakah penyelidik melihat catatan doktor?",
+     "Adakah seluruh fail digunakan?",
+     "Adakah keputusan ujian saya dilihat?"
+    ],
+    "words": 32
+   },
+   "version": "v1.0"
+  },
+  "B04": {
+   "en": {
+    "title": "Are past records used?",
+    "answer": "Yes. Records of hospital events from 2023 to 2025 at UMMC and HRPZ II are used to build and test the system. The ethics committee is asked to approve this without individual consent, because contacting every past patient is not possible and disruptive to patients and hospital operation.",
+    "examples": [
+     "Are my old hospital records used?",
+     "I was here last year, is my data included?",
+     "Do you use records from 2023 to 2025?",
+     "Why use past patients' data?",
+     "Was my previous admission used?"
+    ],
+    "words": 48
+   },
+   "bm": {
+    "title": "Adakah rekod lama digunakan?",
+    "answer": "Ya. Rekod peristiwa hospital dari tahun 2023 hingga 2025 di PPUM dan HRPZ II digunakan untuk membina dan menguji sistem. Kelulusan jawatankuasa etika dipohon untuk menggunakannya tanpa persetujuan individu kerana menghubungi semua bekas pesakit tidak dapat dilaksanakan dan boleh mengganggu pesakit serta operasi hospital.",
+    "examples": [
+     "Adakah rekod hospital lama saya digunakan?",
+     "Saya datang tahun lalu, adakah data saya termasuk?",
+     "Adakah data tahun 2023 hingga 2025 digunakan?",
+     "Mengapa data pesakit terdahulu digunakan?",
+     "Adakah rekod kemasukan terdahulu digunakan?"
+    ],
+    "words": 44
+   },
+   "version": "v1.0"
+  },
+  "B05": {
+   "en": {
+    "title": "Is my diagnosis used?",
+    "answer": "Only when needed for safe bed placement, for example infection-control needs or treating specialty. Your diagnosis is not used to judge your care, your treatment or your doctors.",
+    "examples": [
+     "Is my diagnosis used?",
+     "Do you use my illness information?",
+     "Will the system know my disease?",
+     "Is my infection status used?",
+     "Why do you need medical details for beds?"
+    ],
+    "words": 28
+   },
+   "bm": {
+    "title": "Adakah diagnosis saya digunakan?",
+    "answer": "Hanya apabila perlu bagi penempatan katil yang selamat, contohnya keperluan kawalan jangkitan atau kepakaran rawatan. Diagnosis anda tidak digunakan untuk menilai penjagaan, rawatan atau doktor anda.",
+    "examples": [
+     "Adakah diagnosis saya digunakan?",
+     "Adakah maklumat penyakit saya digunakan?",
+     "Adakah sistem tahu penyakit saya?",
+     "Adakah status jangkitan saya digunakan?",
+     "Mengapa maklumat perubatan diperlukan untuk katil?"
+    ],
+    "words": 26
+   },
+   "version": "v1.0"
+  },
+  "C01": {
+   "en": {
+    "title": "Is my information safe?",
+    "answer": "Data stay inside the hospital's own computer systems, with encryption, restricted access and records of who views data. Only approved staff can access study data. Results are reported as hospital-wide performance numbers, not about individual patients.",
+    "examples": [
+     "Is my data safe?",
+     "How do you protect my information?",
+     "Can my data be hacked?",
+     "Is this secure?",
+     "Will my information leak?"
+    ],
+    "words": 36
+   },
+   "bm": {
+    "title": "Adakah maklumat saya selamat?",
+    "answer": "Data kekal dalam sistem komputer hospital, dengan penyulitan, akses terhad dan rekod pihak yang melihat data. Hanya kakitangan yang diluluskan boleh mengakses data kajian. Hasil dilaporkan sebagai angka prestasi keseluruhan hospital, bukan maklumat pesakit individu.",
+    "examples": [
+     "Adakah data saya selamat?",
+     "Bagaimanakah maklumat saya dilindungi?",
+     "Bolehkah data saya digodam?",
+     "Adakah sistem ini selamat?",
+     "Bolehkah maklumat saya bocor?"
+    ],
+    "words": 35
+   },
+   "version": "v1.0"
+  },
+  "C02": {
+   "en": {
+    "title": "Who can see my information?",
+    "answer": "Only authorized hospital staff and approved researchers, each limited to what their role needs. The people who build the system cannot see who you are. All access is recorded and reviewed.",
+    "examples": [
+     "Who can see my data?",
+     "Can the company see my information?",
+     "Will my employer or insurer see this?",
+     "Who has access to the study data?",
+     "Can anyone look at my records?"
+    ],
+    "words": 31
+   },
+   "bm": {
+    "title": "Siapakah yang boleh melihat maklumat saya?",
+    "answer": "Hanya kakitangan hospital yang diberi kuasa dan penyelidik diluluskan, mengikut keperluan tugas masing-masing. Mereka yang membina sistem tidak dapat melihat identiti anda. Semua akses direkodkan dan disemak.",
+    "examples": [
+     "Siapa boleh melihat data saya?",
+     "Bolehkah syarikat melihat maklumat saya?",
+     "Adakah majikan atau insurans saya akan melihatnya?",
+     "Siapakah yang boleh mengakses data kajian?",
+     "Bolehkah sesiapa membaca rekod saya?"
+    ],
+    "words": 27
+   },
+   "version": "v1.0"
+  },
+  "C03": {
+   "en": {
+    "title": "Is my information sent elsewhere?",
+    "answer": "Patient-level data stay within the hospital. They are not sent overseas and are not used to train any public AI. This chatbot runs separately and does not receive your hospital records.",
+    "examples": [
+     "Is my data sent overseas?",
+     "Is my information stored in the cloud?",
+     "Do you use my data to train ChatGPT or other AI?",
+     "Is my data sold?",
+     "Does this chatbot have my records?"
+    ],
+    "words": 31
+   },
+   "bm": {
+    "title": "Adakah maklumat saya dihantar ke tempat lain?",
+    "answer": "Data peringkat pesakit kekal di hospital. Data tidak dihantar ke luar negara dan tidak digunakan untuk melatih AI awam. Chatbot ini beroperasi secara berasingan dan tidak menerima rekod hospital anda.",
+    "examples": [
+     "Adakah data dihantar ke luar negara?",
+     "Adakah data disimpan di awan?",
+     "Adakah data digunakan untuk melatih ChatGPT atau AI lain?",
+     "Adakah data saya dijual?",
+     "Adakah chatbot memiliki rekod saya?"
+    ],
+    "words": 30
+   },
+   "version": "v1.0"
+  },
+  "C04": {
+   "en": {
+    "title": "How long is information kept?",
+    "answer": "Working records about each hospital visit are deleted shortly after you leave hospital, unless needed for a safety investigation. Approved research records are kept securely for at least seven years after the study, as required, then destroyed.",
+    "examples": [
+     "How long do you keep my data?",
+     "When will my information be deleted?",
+     "Is my data kept forever?",
+     "What happens to the data after the study?",
+     "Do you delete my records after discharge?"
+    ],
+    "words": 37
+   },
+   "bm": {
+    "title": "Berapa lamakah maklumat disimpan?",
+    "answer": "Rekod kerja bagi setiap lawatan hospital dipadam sejurus selepas anda meninggalkan hospital, kecuali jika diperlukan untuk siasatan keselamatan. Rekod penyelidikan yang diluluskan disimpan dengan selamat sekurang-kurangnya tujuh tahun selepas kajian, mengikut keperluan, sebelum dimusnahkan.",
+    "examples": [
+     "Berapa lama data disimpan?",
+     "Bilakah maklumat dipadam?",
+     "Adakah data disimpan selamanya?",
+     "Apakah berlaku selepas kajian?",
+     "Adakah rekod dipadam selepas discaj?"
+    ],
+    "words": 34
+   },
+   "version": "v1.0"
+  },
+  "C05": {
+   "en": {
+    "title": "Does this chatbot save what I type?",
+    "answer": "No. This chatbot does not save any of your typed words. So, if you accidentally type your name, identity card number or health details here, it will be wiped clean and start again. The online withdrawal form is saved in our email system, and does not processed by AI.",
+    "examples": [
+     "Does this chat save my messages?",
+     "Is this conversation recorded?",
+     "Who reads what I type here?",
+     "Is this chatbot private?",
+     "Do you keep my questions?"
+    ],
+    "words": 49
+   },
+   "bm": {
+    "title": "Adakah chatbot menyimpan apa yang saya taip?",
+    "answer": "Tidak. Chatbot ini tidak menyimpan teks yang anda taip. Jika anda tersilap memasukkan nama, nombor kad pengenalan atau maklumat kesihatan, teks itu dipadam dan sesi dimulakan semula. Borang pilihan keluar dalam talian disimpan dalam sistem e-mel kami dan tidak diproses oleh AI.",
+    "examples": [
+     "Adakah mesej saya disimpan?",
+     "Adakah perbualan ini dirakam?",
+     "Siapa membaca teks saya?",
+     "Adakah chatbot ini menjaga privasi?",
+     "Adakah soalan saya disimpan?"
+    ],
+    "words": 42
+   },
+   "version": "v1.0"
+  },
+  "D01": {
+   "en": {
+    "title": "Will this affect my treatment?",
+    "answer": "No. Your doctors and nurses decide your care as usual. MyWIRA does not diagnose, prescribe or change your treatment, and it does not write anything into your medical record.",
+    "examples": [
+     "Will this affect my treatment?",
+     "Will the AI change my medicine?",
+     "Does this change how the doctor treats me?",
+     "Is my care different because of this study?",
+     "Will the system write in my medical record?"
+    ],
+    "words": 29
+   },
+   "bm": {
+    "title": "Adakah rawatan saya akan terjejas?",
+    "answer": "Tidak. Doktor dan jururawat masih menentukan penjagaan anda seperti biasa. MyWIRA tidak membuat diagnosis, memberi preskripsi atau mengubah rawatan dan tidak menulis apa-apa ke dalam rekod perubatan anda.",
+    "examples": [
+     "Adakah rawatan saya terjejas?",
+     "Adakah AI mengubah ubat saya?",
+     "Adakah cara doktor merawat saya berubah?",
+     "Adakah penjagaan saya berbeza kerana kajian ini?",
+     "Adakah sistem menulis dalam rekod perubatan saya?"
+    ],
+    "words": 28
+   },
+   "version": "v1.0"
+  },
+  "D02": {
+   "en": {
+    "title": "Does a computer decide my bed?",
+    "answer": "No. An authorized bed manager always makes the final decision in every phase of development. This programme only works to visualize and predict suitable beds throughout the hospital that is best matched to the needs written by doctors.",
+    "examples": [
+     "Does a computer decide my bed?",
+     "Will the AI choose my ward?",
+     "Is a machine deciding where I go?",
+     "Who decides my bed?",
+     "Can staff ignore the computer?"
+    ],
+    "words": 38
+   },
+   "bm": {
+    "title": "Adakah komputer menentukan katil saya?",
+    "answer": "Tidak. Pengurus katil yang diberi kuasa sentiasa membuat keputusan akhir pada setiap peringkat pembangunan. Program ini hanya membantu memaparkan dan meramalkan katil yang sesuai di hospital berdasarkan keperluan yang dicatatkan oleh doktor.",
+    "examples": [
+     "Adakah komputer menentukan katil saya?",
+     "Adakah AI memilih wad saya?",
+     "Adakah mesin menentukan ke mana saya pergi?",
+     "Siapa menentukan katil saya?",
+     "Bolehkah kakitangan mengabaikan cadangan komputer?"
+    ],
+    "words": 32
+   },
+   "version": "v1.0"
+  },
+  "D03": {
+   "en": {
+    "title": "Will opting out affect my care?",
+    "answer": "No. Your care, treatment and access to services stay the same. If you opt out, staff will arrange your bed using the normal hospital process.",
+    "examples": [
+     "Will opting out affect my care?",
+     "Will I wait longer if I opt out?",
+     "Will staff treat me differently if I say no?",
+     "Is there any penalty for opting out?",
+     "Will I lose my bed if I refuse?"
+    ],
+    "words": 25
+   },
+   "bm": {
+    "title": "Adakah pilihan keluar menjejaskan penjagaan saya?",
+    "answer": "Tidak. Penjagaan, rawatan dan akses anda kepada perkhidmatan kekal sama. Jika anda memilih untuk tidak menyertai, kakitangan akan menguruskan katil anda melalui prosedur biasa hospital.",
+    "examples": [
+     "Adakah pilihan keluar menjejaskan rawatan?",
+     "Adakah saya menunggu lebih lama jika menarik diri?",
+     "Adakah kakitangan melayan saya secara berbeza?",
+     "Adakah terdapat penalti jika menarik diri?",
+     "Adakah saya kehilangan katil jika menolak?"
+    ],
+    "words": 25
+   },
+   "version": "v1.0"
+  },
+  "D04": {
+   "en": {
+    "title": "What if the system is wrong?",
+    "answer": "Staff check every suggestion and can reject it. If the system's information is late or incomplete, it stops giving suggestions and staff use normal procedures. Problems are recorded and investigated.",
+    "examples": [
+     "What if the system makes a mistake?",
+     "What if the AI gives the wrong bed?",
+     "Is this system safe?",
+     "What happens if the computer fails?",
+     "Who is responsible if something goes wrong?"
+    ],
+    "words": 30
+   },
+   "bm": {
+    "title": "Bagaimana jika sistem tersilap?",
+    "answer": "Kakitangan menyemak setiap cadangan dan boleh menolaknya. Jika maklumat sistem lewat atau tidak lengkap, sistem berhenti memberi cadangan dan kakitangan menggunakan prosedur biasa. Masalah direkodkan dan disiasat.",
+    "examples": [
+     "Bagaimana jika sistem membuat kesilapan?",
+     "Bagaimana jika AI mencadangkan katil yang salah?",
+     "Adakah sistem selamat?",
+     "Apa berlaku jika komputer rosak?",
+     "Siapa bertanggungjawab jika berlaku masalah?"
+    ],
+    "words": 27
+   },
+   "version": "v1.0"
+  },
+  "E01": {
+   "en": {
+    "title": "Why was I not asked for consent?",
+    "answer": "The research only processes timestamp and event as tagged by each encounter ID. There are hundreds of patients being managed in this hospital. Asking every patient in busy hospitals is not practical and would leave out emergency and very ill patients, making results unreliable. The ethics committee decides whether the study may proceed without individual consent. You can still opt out of future use.",
+    "examples": [
+     "Why was I not asked for consent?",
+     "Why didn't anyone ask my permission?",
+     "Is it legal to use my data without consent?",
+     "I did not sign anything, why is my data used?",
+     "Do you need my consent?"
+    ],
+    "words": 64
+   },
+   "bm": {
+    "title": "Mengapa persetujuan saya tidak diminta?",
+    "answer": "Kajian hanya memproses masa dan peristiwa yang dilabel dengan ID pertemuan. Meminta persetujuan semua pesakit tidak praktikal dan boleh mengecualikan pesakit kecemasan atau tenat, lalu menjejaskan hasil. Jawatankuasa etika menentukan sama ada persetujuan individu boleh dikecualikan. Anda masih boleh memilih keluar daripada penggunaan data pada masa hadapan.",
+    "examples": [
+     "Mengapa persetujuan saya tidak diminta?",
+     "Mengapa tiada siapa meminta izin saya?",
+     "Adakah sah menggunakan data tanpa persetujuan?",
+     "Saya tidak menandatangani apa-apa, mengapa data digunakan?",
+     "Adakah persetujuan saya diperlukan?"
+    ],
+    "words": 47
+   },
+   "version": "v1.0"
+  },
+  "E02": {
+   "en": {
+    "title": "Who approved this study?",
+    "answer": "The study is approved by the Medical Research and Ethics Committee (MREC), reference 2026831-17263. The hospitals' data protection and governance offices also approve access to data before the study begins.",
+    "examples": [
+     "Who approved this study?",
+     "Is this study approved by ethics?",
+     "What is the ethics reference number?",
+     "Is this study official?",
+     "Has the Ministry approved this?"
+    ],
+    "words": 30
+   },
+   "bm": {
+    "title": "Siapakah yang meluluskan kajian ini?",
+    "answer": "Kajian ini dinyatakan sebagai diluluskan oleh Jawatankuasa Etika Penyelidikan Perubatan (MREC), rujukan 2026831-17263. Pejabat perlindungan data dan tadbir urus hospital juga meluluskan akses data sebelum kajian bermula.",
+    "examples": [
+     "Siapakah meluluskan kajian ini?",
+     "Adakah kajian diluluskan oleh jawatankuasa etika?",
+     "Apakah nombor rujukan etika?",
+     "Adakah kajian ini rasmi?",
+     "Adakah kementerian meluluskannya?"
+    ],
+    "words": 27
+   },
+   "version": "v1.0"
+  },
+  "E03": {
+   "en": {
+    "title": "Am I a research participant?",
+    "answer": "Information from your hospital visit may be included in the study data, but you will not be asked to do anything extra: no tests, questionnaires or visits. Hospital staff who use the system take part separately with written consent.",
+    "examples": [
+     "Am I part of this research?",
+     "Do I have to do anything?",
+     "Will I need extra tests?",
+     "Will someone ask me questions for this study?",
+     "Am I a research subject?"
+    ],
+    "words": 39
+   },
+   "bm": {
+    "title": "Adakah saya peserta penyelidikan?",
+    "answer": "Maklumat lawatan hospital anda mungkin dimasukkan dalam data kajian tetapi anda tidak perlu melakukan apa-apa tambahan: tiada ujian, soal selidik atau lawatan tambahan. Kakitangan hospital yang menggunakan sistem menyertai kajian secara berasingan dengan persetujuan bertulis.",
+    "examples": [
+     "Adakah saya terlibat dalam kajian ini?",
+     "Adakah saya perlu melakukan sesuatu?",
+     "Adakah saya perlu ujian tambahan?",
+     "Adakah seseorang menyoal saya tentang kajian?",
+     "Adakah saya subjek penyelidikan?"
+    ],
+    "words": 35
+   },
+   "version": "v1.0"
+  },
+  "E04": {
+   "en": {
+    "title": "Does reading this notice mean I agreed?",
+    "answer": "No. Reading this notice or using this chatbot does not mean you have agreed to anything. The study uses information under the ethics committee's approval. You have the right to opt out of future research use at any time.",
+    "examples": [
+     "Does using this chatbot mean I agree?",
+     "If I say nothing, have I agreed?",
+     "Did I consent by scanning the QR code?",
+     "Is silence consent?",
+     "Have I already joined by reading this?"
+    ],
+    "words": 39
+   },
+   "bm": {
+    "title": "Adakah membaca notis ini bermakna saya bersetuju?",
+    "answer": "Tidak. Membaca notis ini atau menggunakan chatbot tidak bermakna anda telah memberikan persetujuan. Kajian menggunakan maklumat tertakluk pada kelulusan jawatankuasa etika. Anda berhak memilih keluar daripada penggunaan data bagi penyelidikan pada masa hadapan, pada bila-bila masa.",
+    "examples": [
+     "Adakah menggunakan chatbot bermakna saya setuju?",
+     "Jika saya diam, adakah saya bersetuju?",
+     "Adakah imbasan QR bermaksud persetujuan?",
+     "Adakah berdiam diri dianggap setuju?",
+     "Adakah saya sudah menyertai dengan membaca ini?"
+    ],
+    "words": 36
+   },
+   "version": "v1.0"
+  },
+  "F01": {
+   "en": {
+    "title": "How do I opt out?",
+    "answer": "You can: (1) fill in the paper Opt-Out Form at the research counter, (2) email the form to ummc.wira@gmail.com, or (3) use the online Opt-Out Form linked below. A research assistant at the counter can help you. You do not need to give a reason.",
+    "examples": [
+     "How do I opt out?",
+     "I don't want my data used.",
+     "How can I withdraw?",
+     "Where is the opt-out form?",
+     "I want to say no to this study."
+    ],
+    "words": 45
+   },
+   "bm": {
+    "title": "Bagaimanakah saya boleh memilih keluar?",
+    "answer": "Anda boleh (1) mengisi Borang Pilihan Keluar di kaunter penyelidikan, (2) menghantar borang melalui e-mel ke ummc.wira@gmail.com, atau (3) menggunakan borang dalam talian melalui pautan di bawah. Pembantu penyelidik di kaunter boleh membantu anda. Anda tidak perlu memberikan sebab.",
+    "examples": [
+     "Bagaimanakah saya boleh memilih keluar?",
+     "Saya tidak mahu data saya digunakan.",
+     "Bagaimana saya boleh menarik diri?",
+     "Di manakah borang pilihan keluar?",
+     "Saya mahu menolak kajian ini."
+    ],
+    "words": 39
+   },
+   "version": "v1.1"
+  },
+  "F02": {
+   "en": {
+    "title": "What happens after I opt out?",
+    "answer": "Information from your hospital visits will be removed from the research data from the date your request is processed. The system will not make bed suggestions for you; staff use the normal process. You will receive SMS confirmation within 5 working days.",
+    "examples": [
+     "What happens after I opt out?",
+     "How do I know my request is done?",
+     "How long does opting out take?",
+     "Will I get a confirmation?",
+     "What changes if I withdraw?"
+    ],
+    "words": 42
+   },
+   "bm": {
+    "title": "Apakah berlaku selepas saya memilih keluar?",
+    "answer": "Maklumat lawatan hospital anda dikecualikan daripada data penyelidikan mulai tarikh permohonan diproses. Sistem tidak akan mencadangkan katil untuk anda; kakitangan menggunakan prosedur biasa. Anda akan menerima pengesahan SMS dalam tempoh lima hari bekerja.",
+    "examples": [
+     "Apakah berlaku selepas saya memilih keluar?",
+     "Bagaimana saya tahu permohonan selesai?",
+     "Berapa lama proses pilihan keluar?",
+     "Adakah saya menerima pengesahan?",
+     "Apakah perubahan apabila saya menarik diri?"
+    ],
+    "words": 33
+   },
+   "version": "v1.1"
+  },
+  "F03": {
+   "en": {
+    "title": "Can my past information be removed?",
+    "answer": "Information already combined into hospital-wide totals, or included in completed analyses, cannot be removed because it no longer identifies anyone. After your request is processed, your information will not be used for this research.",
+    "examples": [
+     "Can you delete my old data?",
+     "Can my past records be removed from the study?",
+     "Will opting out erase everything?",
+     "What about data already used?",
+     "Can I withdraw information from last year?"
+    ],
+    "words": 34
+   },
+   "bm": {
+    "title": "Bolehkah maklumat lama saya dipadam?",
+    "answer": "Maklumat yang telah digabungkan sebagai angka keseluruhan hospital atau dimasukkan dalam analisis siap tidak boleh dikeluarkan kerana ia tidak lagi mengenal pasti sesiapa. Selepas permohonan anda diproses, maklumat anda tidak akan digunakan lagi dalam kajian ini.",
+    "examples": [
+     "Bolehkah data lama saya dipadam?",
+     "Bolehkah rekod terdahulu dikeluarkan?",
+     "Adakah pilihan keluar memadam semuanya?",
+     "Bagaimana dengan data yang sudah digunakan?",
+     "Bolehkah saya menarik balik data tahun lalu?"
+    ],
+    "words": 36
+   },
+   "version": "v1.0"
+  },
+  "F04": {
+   "en": {
+    "title": "What details does the form need?",
+    "answer": "Your name, identity card or passport number, medical record number if known, contact details and signature. These are needed only to find and exclude your records. Please do not type these details into this chat; use the form only.",
+    "examples": [
+     "What do I need to fill in the form?",
+     "Why do you need my IC number to opt out?",
+     "What information is required to withdraw?",
+     "Do I need my medical record number?",
+     "Can I opt out without giving my name?"
+    ],
+    "words": 39
+   },
+   "bm": {
+    "title": "Apakah butiran diperlukan dalam borang?",
+    "answer": "Nama, nombor kad pengenalan atau pasport, nombor rekod perubatan jika diketahui, maklumat hubungan dan tandatangan anda. Butiran ini diperlukan hanya untuk mencari dan mengecualikan rekod anda. Jangan taip maklumat tersebut dalam chat ini; gunakan borang sahaja.",
+    "examples": [
+     "Apa perlu diisi dalam borang?",
+     "Mengapa nombor kad pengenalan diperlukan?",
+     "Maklumat apa diperlukan untuk menarik diri?",
+     "Adakah nombor rekod perubatan wajib?",
+     "Bolehkah memilih keluar tanpa nama?"
+    ],
+    "words": 36
+   },
+   "version": "v1.0"
+  },
+  "F05": {
+   "en": {
+    "title": "Can someone opt out for me?",
+    "answer": "Yes. A parent, legal guardian or authorized representative can submit the form for a child, or for a patient who cannot decide for themselves, stating their relationship. Opting out has no effect on care.",
+    "examples": [
+     "Can I opt out for my mother?",
+     "Can a family member withdraw for me?",
+     "My child was admitted, can I opt out for him?",
+     "My father is unconscious, can I decide for him?",
+     "Can a guardian fill in the form?"
+    ],
+    "words": 34
+   },
+   "bm": {
+    "title": "Bolehkah orang lain memilih keluar bagi pihak saya?",
+    "answer": "Ya. Ibu bapa, penjaga sah atau wakil diberi kuasa boleh menghantar borang bagi kanak-kanak atau pesakit yang tidak berupaya membuat keputusan sendiri, dengan menyatakan hubungan mereka. Pilihan keluar tidak menjejaskan penjagaan.",
+    "examples": [
+     "Bolehkah saya menarik diri bagi pihak ibu saya?",
+     "Bolehkah ahli keluarga mewakili saya?",
+     "Anak saya dimasukkan ke hospital, bolehkah saya memilih keluar untuknya?",
+     "Bapa saya tidak sedarkan diri, bolehkah saya membuat keputusan?",
+     "Bolehkah penjaga mengisi borang?"
+    ],
+    "words": 31
+   },
+   "version": "v1.0"
+  },
+  "G01": {
+   "en": {
+    "title": "Who can I contact?",
+    "answer": "MyWIRA Research Office: 014-7072858, ummc.wira@gmail.com, reception/ward 9am-5pm MON-FRI. The same contacts serve UMMC and HRPZ II. A research assistant at the counter can answer your questions in person.",
+    "examples": [
+     "Who can I contact?",
+     "Can I talk to a person?",
+     "What is your phone number?",
+     "Where is the research counter?",
+     "I need more information."
+    ],
+    "words": 28
+   },
+   "bm": {
+    "title": "Siapakah yang boleh saya hubungi?",
+    "answer": "Pejabat Penyelidikan MyWIRA: 014-7072858, ummc.wira@gmail.com, kaunter pendaftaran/wad, 9 pagi hingga 5 petang, Isnin–Jumaat. Maklumat hubungan yang sama digunakan untuk PPUM dan HRPZ II. Pembantu penyelidik di kaunter boleh menjawab soalan anda secara bersemuka.",
+    "examples": [
+     "Siapa boleh saya hubungi?",
+     "Bolehkah saya bercakap dengan petugas?",
+     "Apakah nombor telefon anda?",
+     "Di manakah kaunter penyelidikan?",
+     "Saya memerlukan maklumat lanjut."
+    ],
+    "words": 33
+   },
+   "version": "v1.1"
+  },
+  "G02": {
+   "en": {
+    "title": "How do I raise a concern or complaint?",
+    "answer": "If you have a concern about this study or your rights, you may contact the Medical Research and Ethics Committee at 03-7949 3209 / 8473 / 4656; ummc-mrec@ummc.edu.my; or Pusat Penyelidikan Klinikal HRPZ II (CRC): 09-745 2636; crckelantan@gmail.com. Both are independent of the research team.",
+    "examples": [
+     "I want to make a complaint.",
+     "Who can I complain to?",
+     "I am not happy with this study.",
+     "Who protects my rights?",
+     "Is there an independent contact?"
+    ],
+    "words": 45
+   },
+   "bm": {
+    "title": "Bagaimanakah saya boleh membuat aduan?",
+    "answer": "Jika anda mempunyai kebimbangan tentang kajian atau hak anda, hubungi Jawatankuasa Etika Penyelidikan Perubatan melalui 03-7949 3209 / 8473 / 4656 atau ummc-mrec@ummc.edu.my; atau Pusat Penyelidikan Klinikal HRPZ II (CRC): 09-745 2636, crckelantan@gmail.com. Kedua-duanya bebas daripada pasukan penyelidik.",
+    "examples": [
+     "Saya mahu membuat aduan.",
+     "Kepada siapa saya boleh mengadu?",
+     "Saya tidak berpuas hati dengan kajian ini.",
+     "Siapa melindungi hak saya?",
+     "Adakah terdapat pihak bebas untuk dihubungi?"
+    ],
+    "words": 38
+   },
+   "version": "v1.1"
+  },
+  "S01": {
+   "en": {
+    "title": "Fallback (no confident match)",
+    "answer": "Sorry, I can only answer approved questions about the MyWIRA study, and I am not sure what you are asking. Please choose a question from the menu, or contact the Research Office at the main menu",
+    "examples": [
+     "Trigger: no answer reaches the confidence threshold after the clarification step.",
+     "Example: \"What is the weather today?\"",
+     "Example: \"asdf” or “xzm \" or “”",
+     "Example: \"Tell me a joke\"",
+     "Example: \"What is the meaning of life?\""
+    ],
+    "words": 36
+   },
+   "bm": {
+    "title": "Jawapan sandaran (tiada padanan yakin)",
+    "answer": "Maaf, saya hanya boleh menjawab soalan yang diluluskan mengenai kajian MyWIRA dan saya kurang pasti maksud soalan anda. Sila pilih soalan daripada menu atau hubungi Pejabat Penyelidikan melalui menu utama.",
+    "examples": [
+     "Pencetus: Tiada jawapan melepasi ambang keyakinan selepas langkah penjelasan.",
+     "Contoh: “Bagaimana cuaca hari ini?”",
+     "Contoh: “asdf” atau “xzm”",
+     "Contoh: “Ceritakan satu jenaka”",
+     "Contoh: “Apakah erti kehidupan?”"
+    ],
+    "words": 30
+   },
+   "version": "v1.0"
+  },
+  "S02": {
+   "en": {
+    "title": "Personal details detected",
+    "answer": "For your privacy, please do not type your name, identity card number, medical record number or health details here. Your message has not been saved. To opt out, please use the Opt-Out Form.",
+    "examples": [
+     "Trigger: rule-based pattern screen BEFORE the SLM (IC, passport, MRN, phone, email formats).",
+     "Example: \"My IC is 800101-14-XXXX, please remove me\"",
+     "Example: \"My MRN is RN123456\"",
+     "Example: \"Call me at 012-XXX XXXX\"",
+     "Example: \"I am Ahmad bin Ali with diabetes, opt me out\""
+    ],
+    "words": 33
+   },
+   "bm": {
+    "title": "Maklumat peribadi dikesan",
+    "answer": "Demi privasi anda, jangan taip nama, nombor kad pengenalan, nombor rekod perubatan atau butiran kesihatan di sini. Mesej anda tidak disimpan. Untuk memilih keluar, sila gunakan Borang Pilihan Keluar.",
+    "examples": [
+     "Pencetus: Saringan corak berasaskan peraturan SEBELUM SLM (IC, pasport, MRN, telefon, e-mel).",
+     "Contoh: “IC saya 800101-14-XXXX, keluarkan saya”",
+     "Contoh: “MRN saya RN123456”",
+     "Contoh: “Hubungi saya di 012-XXX XXXX”",
+     "Contoh: “Saya Ahmad bin Ali menghidap diabetes, keluarkan saya”"
+    ],
+    "words": 29
+   },
+   "version": "v1.0"
+  },
+  "S03": {
+   "en": {
+    "title": "Clinical or personal-care question",
+    "answer": "I cannot answer questions about your health, treatment, bed or discharge. Please ask your nurse or doctor on the ward, who can help you directly.",
+    "examples": [
+     "When will I get my bed?",
+     "Is my blood test normal?",
+     "When can I go home?",
+     "Should I take this medicine?",
+     "Why is my wait so long today?"
+    ],
+    "words": 25
+   },
+   "bm": {
+    "title": "Soalan klinikal atau penjagaan peribadi",
+    "answer": "Saya tidak dapat menjawab soalan tentang kesihatan, rawatan, katil atau discaj anda. Sila bertanya kepada jururawat atau doktor di wad, yang boleh membantu anda secara langsung.",
+    "examples": [
+     "Bilakah saya mendapat katil?",
+     "Adakah keputusan ujian darah saya normal?",
+     "Bilakah saya boleh pulang?",
+     "Patutkah saya mengambil ubat ini?",
+     "Mengapa saya menunggu begitu lama hari ini?"
+    ],
+    "words": 26
+   },
+   "version": "v1.0"
+  },
+  "S04": {
+   "en": {
+    "title": "Urgent help or distress",
+    "answer": "If you feel unwell or need urgent help, please tell the nearest nurse or staff member now. In an emergency outside the hospital, call 999.",
+    "examples": [
+     "I have chest pain.",
+     "I can't breathe.",
+     "My father collapsed.",
+     "I feel very unwell.",
+     "Help me, it is urgent."
+    ],
+    "words": 25
+   },
+   "bm": {
+    "title": "Bantuan segera atau kecemasan",
+    "answer": "Jika anda tidak sihat atau memerlukan bantuan segera, maklumkan kepada jururawat atau kakitangan terdekat sekarang. Jika kecemasan berlaku di luar hospital, hubungi 999.",
+    "examples": [
+     "Saya sakit dada.",
+     "Saya sukar bernafas.",
+     "Bapa saya rebah.",
+     "Saya berasa sangat tidak sihat.",
+     "Tolong, ini kecemasan."
+    ],
+    "words": 23
+   },
+   "version": "v1.0"
+  },
+  "S05": {
+   "en": {
+    "title": "Other hospital matters",
+    "answer": "I can only answer questions about the MyWIRA study. For other hospital matters, such as appointments, visiting hours, parking or billing, please ask the hospital information counter.",
+    "examples": [
+     "What are the visiting hours?",
+     "Where do I pay my bill?",
+     "How do I change my appointment?",
+     "Where is the pharmacy?",
+     "Where can I park?"
+    ],
+    "words": 27
+   },
+   "bm": {
+    "title": "Urusan hospital yang lain",
+    "answer": "Saya hanya boleh menjawab soalan mengenai kajian MyWIRA. Untuk urusan hospital lain, seperti janji temu, waktu melawat, tempat letak kereta atau bil, sila bertanya di kaunter pertanyaan hospital.",
+    "examples": [
+     "Apakah waktu melawat?",
+     "Di mana saya membayar bil?",
+     "Bagaimana menukar janji temu?",
+     "Di manakah farmasi?",
+     "Di mana boleh meletakkan kereta?"
+    ],
+    "words": 28
+   },
+   "version": "v1.0"
+  },
+  "S06": {
+   "en": {
+    "title": "Greeting and about this chatbot",
+    "answer": "Hello. I am the MyWIRA information assistant. I only show answers approved by the ethics committee. I do not give medical advice and I cannot see your hospital records. Choose a question below or type your own.",
+    "examples": [
+     "Hello",
+     "Hi, who are you?",
+     "Are you a real person?",
+     "Are you an AI?",
+     "What can you answer?"
+    ],
+    "words": 37
+   },
+   "bm": {
+    "title": "Ucapan salam dan maklumat chatbot",
+    "answer": "Salam sejahtera. Saya pembantu maklumat MyWIRA. Saya hanya memaparkan jawapan yang diluluskan oleh jawatankuasa etika. Saya tidak memberi nasihat perubatan dan tidak dapat melihat rekod hospital anda. Pilih soalan di bawah atau taip soalan sendiri.",
+    "examples": [
+     "Helo",
+     "Hai, siapakah anda?",
+     "Adakah anda manusia?",
+     "Adakah anda AI?",
+     "Apakah soalan yang boleh anda jawab?"
+    ],
+    "words": 35
+   },
+   "version": "v1.0"
+  }
+ }
+}

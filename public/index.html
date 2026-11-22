@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="ms">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="referrer" content="no-referrer">
+  <meta name="theme-color" content="#2b3b7a">
+  <title>Chatbot – Project MyWIRA</title>
+  <link rel="icon" href="/img/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <div class="app" id="app">
+    <header class="topbar">
+      <button class="icon-btn" id="btn-home" type="button" aria-label="Menu utama / Main menu">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3 2 11.5h3V21h5.5v-6h3v6H19v-9.5h3z"/></svg>
+      </button>
+      <h1 class="title"><span class="t-long" id="app-title">Chatbot – Project MyWIRA</span><span class="t-short" aria-hidden="true">Chatbot MyWIRA</span></h1>
+      <div class="top-actions">
+        <button class="text-size" id="btn-size" type="button" aria-label="Saiz teks / Text size"><span aria-hidden="true">A</span><span class="big" aria-hidden="true">A</span></button>
+        <div class="lang" role="group" aria-label="Bahasa / Language">
+          <button type="button" data-lang="bm" class="lang-btn">BM</button>
+          <button type="button" data-lang="en" class="lang-btn">EN</button>
+        </div>
+      </div>
+    </header>
+
+    <!-- CHAT VIEW -->
+    <main class="view" id="view-chat">
+      <div class="chat" id="chat" role="log" aria-live="polite" aria-relevant="additions"></div>
+      <form class="composer" id="composer" autocomplete="off">
+        <label for="q" class="sr-only" id="q-label">Taip soalan anda</label>
+        <textarea id="q" rows="1" maxlength="300" enterkeyhint="send" spellcheck="true"></textarea>
+        <button type="submit" class="send" id="send" aria-label="Hantar / Send">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3.4 20.4 21 12 3.4 3.6 3.3 10l12.5 2-12.5 2z"/></svg>
+        </button>
+      </form>
+      <p class="composer-note" id="composer-note"></p>
+    </main>
+
+    <!-- OPT-OUT FORM VIEW -->
+    <main class="view hidden" id="view-form" aria-labelledby="form-title">
+      <div class="form-wrap">
+        <button type="button" class="back-link" id="btn-back">‹ <span id="back-label">Kembali ke chatbot</span></button>
+        <h2 id="form-title" class="form-title"></h2>
+        <p class="form-sub" id="form-sub"></p>
+        <p class="form-intro" id="form-intro"></p>
+
+        <form id="optout" novalidate>
+          <input type="text" name="website" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true">
+
+          <fieldset class="sec">
+            <legend id="secA"></legend>
+            <div class="field"><label for="fullName" data-t="fullName"></label>
+              <input id="fullName" name="fullName" autocomplete="name" autocapitalize="characters" maxlength="120" required></div>
+            <div class="grid2">
+              <div class="field"><label for="idNo" data-t="idNo"></label>
+                <input id="idNo" name="idNo" maxlength="20" autocapitalize="characters" required></div>
+              <div class="field"><label for="dob" data-t="dob"></label>
+                <input id="dob" name="dob" type="date" min="1900-01-01" required></div>
+              <div class="field"><label for="mrn" data-t="mrn"></label>
+                <input id="mrn" name="mrn" maxlength="20" autocapitalize="characters"></div>
+              <div class="field"><label for="phone" data-t="phone"></label>
+                <input id="phone" name="phone" type="tel" inputmode="tel" autocomplete="tel" maxlength="20" required></div>
+            </div>
+            <div class="field"><label for="email" data-t="email"></label>
+              <input id="email" name="email" type="email" inputmode="email" autocomplete="email" maxlength="254"></div>
+            <div class="field" role="radiogroup" aria-labelledby="lbl-hospital" id="grp-hospital">
+              <span class="label" id="lbl-hospital" data-t="hospital"></span>
+              <div class="choices">
+                <label class="choice"><input type="radio" name="hospital" value="UMMC"> <span data-t="hosp.UMMC"></span></label>
+                <label class="choice"><input type="radio" name="hospital" value="HRPZII"> <span data-t="hosp.HRPZII"></span></label>
+                <label class="choice"><input type="radio" name="hospital" value="BOTH"> <span data-t="hosp.BOTH"></span></label>
+              </div>
+            </div>
+          </fieldset>
+
+          <fieldset class="sec">
+            <legend id="secB"></legend>
+            <label class="choice request" id="grp-requestTick"><input type="checkbox" name="requestTick" id="requestTick"> <strong data-t="request"></strong></label>
+            <p class="understand" data-t="understand"></p>
+            <ul class="bullets" id="bullets"></ul>
+          </fieldset>
+
+          <fieldset class="sec">
+            <legend id="secC"></legend>
+            <label class="choice toggle"><input type="checkbox" id="onBehalf" name="onBehalf"> <span id="onBehalf-label"></span></label>
+            <div id="rep" class="hidden">
+              <div class="grid2">
+                <div class="field"><label for="repName" data-t="repName"></label><input id="repName" name="repName" maxlength="120" autocapitalize="characters"></div>
+                <div class="field"><label for="repId" data-t="repId"></label><input id="repId" name="repId" maxlength="20" autocapitalize="characters"></div>
+                <div class="field"><label for="repRelationship" data-t="repRel"></label><input id="repRelationship" name="repRelationship" maxlength="60"></div>
+                <div class="field"><label for="repPhone" data-t="repPhone"></label><input id="repPhone" name="repPhone" type="tel" inputmode="tel" maxlength="20"></div>
+              </div>
+              <div class="field" role="radiogroup" aria-labelledby="lbl-reason" id="grp-repReason">
+                <span class="label" id="lbl-reason" data-t="repReason"></span>
+                <div class="choices col">
+                  <label class="choice"><input type="radio" name="repReason" value="under18"> <span data-t="reasons.under18"></span></label>
+                  <label class="choice"><input type="radio" name="repReason" value="cannotDecide"> <span data-t="reasons.cannotDecide"></span></label>
+                  <label class="choice"><input type="radio" name="repReason" value="other"> <span data-t="reasons.other"></span></label>
+                </div>
+                <input id="repReasonOther" name="repReasonOther" maxlength="80" class="hidden" aria-labelledby="lbl-reason">
+              </div>
+            </div>
+          </fieldset>
+
+          <fieldset class="sec">
+            <legend id="secD"></legend>
+            <div class="field" role="radiogroup" aria-labelledby="lbl-confirm" id="grp-confirmBy">
+              <span class="label" id="lbl-confirm" data-t="confirmBy"></span>
+              <div class="choices col">
+                <label class="choice"><input type="radio" name="confirmBy" value="sms"> <span data-t="confirm.sms"></span></label>
+                <label class="choice"><input type="radio" name="confirmBy" value="email"> <span data-t="confirm.email"></span></label>
+                <label class="choice"><input type="radio" name="confirmBy" value="none"> <span data-t="confirm.none"></span></label>
+              </div>
+            </div>
+            <div class="field" id="grp-signature">
+              <span class="label" id="lbl-sig" data-t="signature"></span>
+              <p class="hint" id="sig-hint"></p>
+              <div class="sigpad"><canvas id="sig" aria-labelledby="lbl-sig" role="img"></canvas>
+                <button type="button" class="sig-clear" id="sig-clear"></button></div>
+            </div>
+            <div class="field"><span class="label" data-t="date"></span><p class="today" id="today"></p></div>
+          </fieldset>
+
+          <p class="privacy" data-t="privacy"></p>
+          <div class="form-error hidden" id="form-error" role="alert"></div>
+          <button type="submit" class="submit" id="submit"></button>
+        </form>
+
+        <div id="done" class="done hidden" role="status" tabindex="-1">
+          <div class="done-icon" aria-hidden="true">✓</div>
+          <h3 id="done-title"></h3>
+          <p id="done-body"></p>
+          <p class="ref"><span id="done-ref-label"></span> <strong id="done-ref"></strong></p>
+          <button type="button" class="btn" id="done-back"></button>
+        </div>
+      </div>
+    </main>
+  </div>
+  <noscript><p style="padding:1rem">Sila hidupkan JavaScript. / Please enable JavaScript. MyWIRA Research Office: 014-7072858, ummc.wira@gmail.com</p></noscript>
+  <script src="/js/textguard.js"></script>
+  <script src="/js/signature.js"></script>
+  <script src="/js/app.js"></script>
+</body>
+</html>

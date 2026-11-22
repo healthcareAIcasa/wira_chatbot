@@ -1,0 +1,186 @@
+{
+ "cases": {
+  "A01": [
+   "wat is mywira about",
+   "mywira ni projek ape",
+   "briefly what is this research"
+  ],
+  "A02": [
+   "why u guys doing this study",
+   "kajian ni nak capai apa",
+   "purpose of mywira research ah"
+  ],
+  "A03": [
+   "which university running this",
+   "siapa penyelidik utama projek ni",
+   "is metrobinaya part of this"
+  ],
+  "A04": [
+   "is there AI in this hospital system",
+   "AI tu guna untuk pilih katil ke",
+   "computer recommend bed how"
+  ],
+  "A05": [
+   "study end what year",
+   "projek ni habis bila",
+   "how long the research last"
+  ],
+  "B01": [
+   "what data u take from patients",
+   "maklumat ape yg dikumpul",
+   "what info about my visit do you use"
+  ],
+  "B02": [
+   "do u use my nric",
+   "nama dan IC saya diambil ke",
+   "can anyone know its me in the data"
+  ],
+  "B03": [
+   "researchers read my case notes ah",
+   "doktor punya nota dibaca tak",
+   "do u see my xray results"
+  ],
+  "B04": [
+   "i was here in 2023 is my record used",
+   "data lama pesakit diambil ke",
+   "previous admissions included or not"
+  ],
+  "B05": [
+   "system know what sickness i have ah",
+   "penyakit saya digunakan ke dalam sistem",
+   "why need my diagnosis for bed"
+  ],
+  "C01": [
+   "my info safe or not",
+   "data saya dilindungi tak",
+   "can my data kena leak"
+  ],
+  "C02": [
+   "can my boss see this data",
+   "sape boleh tengok rekod aku",
+   "does the IT company see my info"
+  ],
+  "C03": [
+   "data go to other country ah",
+   "maklumat saya dijual kepada syarikat lain ke",
+   "u train chatgpt with my data"
+  ],
+  "C04": [
+   "data kept until when",
+   "berapa tahun data disimpan",
+   "my record deleted after i go home"
+  ],
+  "C05": [
+   "this chat saved anywhere",
+   "chatbot ni rekod apa saya tulis ke",
+   "do u store my questions"
+  ],
+  "D01": [
+   "my treatment will change ah",
+   "ubat saya akan ditukar ke sebab AI",
+   "the doctor still decide my care right"
+  ],
+  "D02": [
+   "computer decide my ward meh",
+   "siapa yang tentukan saya masuk wad mana",
+   "bed manager can reject computer suggestion"
+  ],
+  "D03": [
+   "if i say no to the study my care same or not",
+   "tarik diri nanti kena tunggu lama ke",
+   "any problem if i refuse to join"
+  ],
+  "D04": [
+   "what if the system give wrong bed",
+   "sistem rosak macam mana",
+   "AI make mistake who responsible"
+  ],
+  "E01": [
+   "how come nobody ask me first",
+   "kenapa tak minta izin dulu",
+   "use my data without asking is it allowed"
+  ],
+  "E02": [
+   "got ethics approval or not",
+   "kajian ni diluluskan oleh siapa",
+   "mrec approve this study"
+  ],
+  "E03": [
+   "i need to do survey or test for this",
+   "saya kena buat apa apa untuk kajian",
+   "am i considered a participant"
+  ],
+  "E04": [
+   "i scan this already means i agree ah",
+   "diam maksudnya saya setuju",
+   "reading this poster count as consent"
+  ],
+  "F01": [
+   "i want to get out of this study",
+   "nak keluar dari kajian ni",
+   "how to stop my data being used"
+  ],
+  "F02": [
+   "after opt out what happen",
+   "berapa hari baru dapat pengesahan",
+   "will u sms me after i withdraw"
+  ],
+  "F03": [
+   "can delete my previous data",
+   "data saya yang dah diguna boleh dipadam ke",
+   "opt out remove old records also"
+  ],
+  "F04": [
+   "what details i need to give to opt out",
+   "kenapa borang perlukan nombor IC",
+   "must i give my medical record number"
+  ],
+  "F05": [
+   "my dad unconscious can i opt out for him",
+   "saya penjaga, boleh isi borang untuk ibu",
+   "can parent withdraw for child"
+  ],
+  "G01": [
+   "how to contact the research team",
+   "nak jumpa pembantu penyelidik",
+   "research office number"
+  ],
+  "G02": [
+   "i want to report a problem about this study",
+   "nak buat aduan pasal kajian",
+   "independent person to complain"
+  ],
+  "S03": [
+   "when doctor coming to see me",
+   "bila saya boleh discharge",
+   "my wound infection serious ke"
+  ],
+  "S04": [
+   "i feel like fainting",
+   "anak saya tak bernafas",
+   "help my husband chest pain"
+  ],
+  "S05": [
+   "where to buy food here",
+   "kat mana tempat letak kereta",
+   "how to make appointment"
+  ],
+  "S06": [
+   "hello there",
+   "hai bot",
+   "are you a real person"
+  ]
+ },
+ "offTopic": [
+  "who is the best footballer",
+  "berapa harga emas hari ni",
+  "write me a poem",
+  "translate this to chinese",
+  "apa resepi nasi lemak",
+  "asdfgh",
+  "is it going to rain",
+  "bagi nombor ekor",
+  "how to lose weight fast",
+  "siapa menang pilihan raya"
+ ]
+}

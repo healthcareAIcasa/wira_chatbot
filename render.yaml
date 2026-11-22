@@ -1,0 +1,27 @@
+# Render Blueprint for wira_chatbot (free plan, Singapore region).
+# The model, embeddings and classifier are committed to the repo, so the build only installs packages.
+services:
+  - type: web
+    name: wira-chatbot
+    runtime: node
+    plan: free
+    region: singapore
+    buildCommand: npm ci
+    startCommand: npm start
+    healthCheckPath: /healthz
+    autoDeploy: true
+    envVars:
+      - key: NODE_VERSION
+        value: "22"
+      - key: BREVO_API_KEY        # set in the Render dashboard (Environment), never commit it
+        sync: false
+      - key: SENDER_EMAIL         # must be a verified sender in Brevo
+        value: ummc.wira@gmail.com
+      - key: OPTOUT_TO_EMAIL      # where completed forms are sent
+        value: ummc.wira@gmail.com
+      - key: CHATBOT_ENABLED      # kill switch: false shows the static approved notice
+        value: "true"
+      - key: FREE_TEXT_ENABLED    # false = buttons and question menu only
+        value: "true"
+      - key: OPTOUT_FORM_ENABLED
+        value: "true"
